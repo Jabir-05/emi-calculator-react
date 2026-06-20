@@ -1,31 +1,45 @@
-# EMI Calculator React
+# EMIEase - Smart EMI Calculator
 
-A modern and responsive EMI Calculator built using React and Vite. This tool helps users calculate their monthly EMI (Equated Monthly Installment), total interest payable, and total repayment amount based on loan details.
+A modern and responsive EMI (Equated Monthly Installment) Calculator built using React and Vite. EMIEase helps users calculate their monthly EMI, total interest payable, and total repayment amount instantly with a clean and professional user experience.
+
+## Live Demo
+
+https://emi-ease-calculator.vercel.app
+
+## GitHub Repository
+
+https://github.com/Jabir-05/emi-calculator-react
 
 ## Features
 
 * Calculate Monthly EMI
 * Calculate Total Interest Payable
-* Calculate Total Amount Payable
+* Calculate Total Repayment Amount
+* Fast and Accurate Calculations
 * Responsive Design
-* User-Friendly Interface
-* Real-Time Validation
-* Built with React + Vite
+* Modern User Interface
+* Input Validation
+* Reset Functionality
+* Mobile Friendly
+* Professional Loan Planning Experience
 
 ## Tech Stack
 
 * React.js
 * Vite
-* JavaScript
+* JavaScript (ES6+)
 * CSS3
+* Vercel
 
-## Live Demo
+## EMI Formula
 
-Add your Vercel deployment URL here.
+EMI = [P × R × (1 + R)^N] / [(1 + R)^N – 1]
 
-## GitHub Repository
+Where:
 
-https://github.com/Jabir-05/emi-calculator-react
+* P = Principal Loan Amount
+* R = Monthly Interest Rate
+* N = Loan Tenure in Months
 
 ## Installation
 
@@ -53,28 +67,71 @@ Run the development server:
 npm run dev
 ```
 
-Build for production:
+Open your browser and visit:
+
+```bash
+http://localhost:5173
+```
+
+## Production Build
+
+Build the application:
 
 ```bash
 npm run build
 ```
 
-## EMI Formula
+Preview the production build:
 
-EMI = [P × R × (1 + R)^N] / [(1 + R)^N – 1]
+```bash
+npm run preview
+```
 
-Where:
+## Project Purpose
 
-* P = Loan Amount
-* R = Monthly Interest Rate
-* N = Loan Tenure in Months
+EMIEase was created to provide a simple, fast, and ad-free way for users to estimate their loan repayments. The tool helps users understand their monthly financial commitments by calculating EMI, total interest, and total repayment amount instantly.
 
-## Author
-
-Jabir Imteyaz
-
-Email: jabirimteyaz123@gmail.com
+I have personally used EMI calculators while comparing loan and financing options and wanted a cleaner, more user-friendly version that provides instant results without unnecessary complexity.
 
 ## Digital Heroes Trial Task
 
-This project was developed as part of the Digital Heroes Developer Trial Task and includes all mandatory requirements specified in the assignment.
+This project was developed as part of the Digital Heroes Developer Trial Task.
+
+Implemented Requirements:
+
+* Working EMI Calculator with real calculations
+* Public GitHub Repository
+* Live Deployment on Vercel
+* "Built for Digital Heroes" Button
+* Developer Name Displayed
+* Email Displayed
+* Responsive Design
+* Modern User Interface
+* No Paid Services Used
+
+## Deployment
+
+The project is deployed using Vercel and is accessible online through the live demo link provided above.
+
+## Developer
+
+**Jabir Imteyaz**
+
+Email: [jabirimteyaz123@gmail.com](mailto:jabirimteyaz123@gmail.com)
+
+GitHub: https://github.com/Jabir-05
+
+## Acknowledgements
+
+* React Team
+* Vite Team
+* Vercel
+* Digital Heroes
+
+## License
+
+This project is open-source and available for educational, learning, and portfolio purposes.
+
+---
+
+Developed by Jabir Imteyaz
