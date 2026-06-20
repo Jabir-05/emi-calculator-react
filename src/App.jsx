@@ -183,7 +183,7 @@ function App() {
           <p>A simple, private tool for smarter borrowing decisions.</p>
         </div>
         <div className="developer-info">
-          <span>Developed by Jabir Imteyaz</span>
+          <span>Developer: Jabir Imteyaz</span>
           <a href="mailto:jabirimteyaz123@gmail.com">jabirimteyaz123@gmail.com</a>
         </div>
         <a
